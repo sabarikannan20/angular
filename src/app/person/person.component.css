@@ -1,0 +1,15 @@
+.list-panel {
+    position: absolute;
+    height: 50%;
+    width: 87%;
+}
+.info-panel {
+    position: absolute;
+    top: 53%;
+}
+hr {
+    position: absolute;
+    width: 87%;
+    top: 49%;
+    border-color: black;
+}

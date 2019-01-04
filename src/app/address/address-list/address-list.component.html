@@ -1,0 +1,15 @@
+<button class="addnew" id="addNew" (click)="onAddClick($event)">Add</button>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Street</th>
+    <th>City</th>
+    <th>Postal Code</th>  
+  </tr>
+  <tr *ngFor="let address of addressJson" (click)="onAddressRowClick(address)">
+    <td>{{ address.id }}</td>
+    <td>{{ address.street }}</td>
+    <td>{{ address.city }}</td>
+    <td>{{ address.postal_code }}</td>
+  </tr>
+</table>

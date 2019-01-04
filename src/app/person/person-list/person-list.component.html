@@ -1,0 +1,17 @@
+<button class="addnew" id="addNew" (click)="onAddClick($event)">Add</button>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email-Id</th>
+    <th>DOB</th>
+  </tr>
+  <tr *ngFor="let person of persons" (click)="onRowClick(person)">
+    <td>{{ person.personId }}</td>
+    <td>{{ person.personFirstName }}</td>
+    <td>{{ person.personLastName }}</td>
+    <td>{{ person.email }}</td>
+    <td>{{ person.dob }}</td>
+  </tr>
+</table>

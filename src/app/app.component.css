@@ -1,0 +1,13 @@
+.sidenav {
+    width: 13%;
+    background: #ccffee;
+    position: absolute;
+    border-right: 2px solid;
+    height: 100%;
+}
+.data-container {
+    margin-top: 20px;
+    width: 87%;
+    float: right;
+    height: 50%;
+  }

@@ -1,0 +1,16 @@
+.sidenav-title {
+    text-align: center;
+    margin: auto;
+}
+.menu {
+    width: 100%;
+    background: none;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+hr {
+    margin: auto;
+    border-color: black;
+}

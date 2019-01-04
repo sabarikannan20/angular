@@ -1,0 +1,51 @@
+[ {
+  "id" : 1,
+  "street" : "aatayamatty",
+  "city" : "salem",
+  "postal_code" : 637201
+}, {
+  "id" : 2,
+  "street" : "kakapalayam",
+  "city" : "salem",
+  "postal_code" : 637205
+}, {
+  "id" : 4,
+  "street" : "kakapalayam",
+  "city" : "salem",
+  "postal_code" : 637205
+}, {
+  "id" : 5,
+  "street" : "kambar",
+  "city" : "Tuticorin",
+  "postal_code" : 678457
+}, {
+  "id" : 6,
+  "street" : "kakapalayam",
+  "city" : "salem",
+  "postal_code" : 637205
+}, {
+  "id" : 8,
+  "street" : "kakapalayam",
+  "city" : "salem",
+  "postal_code" : 637205
+}, {
+  "id" : 9,
+  "street" : "kakapalayam",
+  "city" : "salem",
+  "postal_code" : 637205
+}, {
+  "id" : 10,
+  "street" : "kakapalayam",
+  "city" : "salem",
+  "postal_code" : 637205
+}, {
+  "id" : 12,
+  "street" : "valluvar colony",
+  "city" : "Salem",
+  "postal_code" : 636014
+}, {
+  "id" : 13,
+  "street" : "valluvar colony",
+  "city" : "Salem",
+  "postal_code" : 636014
+} ]
