@@ -1,8 +1,4 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="sidenav">
-  <app-entities (entityValue)="entitySelected($event)"></app-entities>
-</div>
-<div class="data-container">
-  <app-person *ngIf="isPerson"></app-person>
-  <app-address *ngIf="isAddress"></app-address>
+<div class="app">
+  <router-outlet></router-outlet>
 </div>

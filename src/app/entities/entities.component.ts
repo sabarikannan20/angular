@@ -1,4 +1,5 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-entities',
@@ -7,15 +8,13 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class EntitiesComponent {
 
-  constructor() { }
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
-  @Output()
-  entityValue = new EventEmitter();
+  onAddressClick() {
+    this.router.navigate(['/address'], {relativeTo: this.route});
+  }
 
-  entitySelected: string;
-
-  onEntitySelect(event){
-    this.entitySelected = event.target.id;
-    this.entityValue.emit(this.entitySelected);
+  onPersonClick() {
+    this.router.navigate(['/person'], {relativeTo: this.route});
   }
 }

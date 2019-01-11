@@ -1,0 +1,16 @@
+<button class="addnew" [routerLink]="'new'" id="addNew">Add</button>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Street</th>
+    <th>City</th>
+    <th>Postal Code</th>
+  </tr>
+  <tr *ngFor="let address of addressList" [routerLink]=[address.id]>
+    <td>{{ address.id }}</td>
+    <td>{{ address.street }}</td>
+    <td>{{ address.city }}</td>
+    <td>{{ address.postalCode }}</td>
+  </tr>
+</table>
+<router-outlet></router-outlet>

@@ -1,0 +1,27 @@
+<div class="form-group">
+    <div class="textbox">
+        <label for="personId">Id</label>
+        <input type="text" id="personId" disabled [(ngModel)]="personInfo.id">
+    </div>
+    <div class="textbox">
+        <label>First Name</label>
+        <input type="text" id="firstName" [(ngModel)]="personInfo.firstName">
+    </div>
+    <div class="textbox">
+        <label>Last Name</label>
+        <input type="text" id="lastName" [(ngModel)]="personInfo.lastName">
+    </div>
+    <div class="textbox">
+        <label>Email</label>
+        <input type="text" id="email" [(ngModel)]="personInfo.email">
+    </div>
+    <div class="textbox">
+        <label>Dob</label>
+        <input type="text" id="dob" [(ngModel)]="personInfo.birthDate">
+    </div>
+    <div class="textbox">
+      <label>Admin</label>
+      <input type="text" id="admin" [(ngModel)]="personInfo.admin">
+  </div>
+  <button (click)="onSubmitSelect()">Submit</button>
+</div>
